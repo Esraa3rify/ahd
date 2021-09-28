@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yourrapplication.yourapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_womanm"
+        android:label="عهد"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.3ahd">
+        <activity
+            android:name="yourapplication.yourrapplication.yourapplication.homeMadeWeb"
+            android:exported="true" />
+        <activity
+            android:name="yourapplication.yourrapplication.yourapplication.homeMadeContent"
+            android:exported="true" />
+        <activity
+            android:name="yourapplication.yourrapplication.yourapplication.khitanWebView"
+            android:exported="true" />
+        <activity
+            android:name="yourapplication.yourrapplication.yourapplication.ruqiahWebView"
+            android:exported="true" />
+        <activity
+            android:name="yourapplication.yourrapplication.yourapplication.ruqiahLecs"
+            android:exported="true" />
+        <activity
+            android:name=".ruqiahlecss"
+            android:exported="true" />
+        <activity
+            android:name="yourapplication.yourrapplication.yourapplication.Linkedinweb"
+            android:exported="true" />
+        <activity
+            android:name="yourapplication.yourrapplication.yourapplication.Aboutme"
+            android:exported="true" />
+        <activity
+            android:name="yourapplication.yourrapplication.yourapplication.AnotherVIdWebView"
+            android:exported="true" />
+        <activity
+            android:name="yourapplication.yourrapplication.yourapplication.AnotherVideos"
+            android:exported="true" />
+        <activity
+            android:name="yourapplication.yourrapplication.yourapplication.Ahmedwebview"
+            android:exported="true" />
+        <activity
+            android:name="yourapplication.yourrapplication.yourapplication.ahmedbenaa"
+            android:exported="true" />
+        <activity
+            android:name="yourapplication.yourrapplication.yourapplication.hodawebview"
+            android:exported="true" />
+        <activity
+            android:name="yourapplication.yourrapplication.yourapplication.MainActivityhodalecs"
+            android:exported="true" />
+        <activity
+            android:name="yourapplication.yourrapplication.yourapplication.hebawebview"
+            android:exported="true" />
+        <activity
+            android:name="yourapplication.yourrapplication.yourapplication.hebalec"
+            android:exported="true" />
+        <activity
+            android:name="yourapplication.yourrapplication.yourapplication.AbdallahBook"
+            android:exported="true" />
+        <activity
+            android:name="yourapplication.yourrapplication.yourapplication.AllContent"
+            android:exported="true" />
+        <activity
+            android:name="yourapplication.yourrapplication.yourapplication.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

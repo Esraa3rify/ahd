@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="yourapplication.yourrapplication.yourapplication.Aboutme"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/to_the_man_who_ispired_me_even_he_is_dead_to_afnan_and_uncle_to_all_souls_left_us_and_decided_to_continue_their_path_away_n_pray_for_my_lost_heart_dad_n_mom_sisters_i_love_you"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="15"
+        android:shadowColor="@android:color/darker_gray"
+        android:background="@drawable/btn2back"
+        android:layout_margin="16dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/mtrLinkedin"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnAhmedBenaaBook"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/btnbackground"
+                android:padding="13dp"
+                android:text="@string/contact_me_on_linkedin"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

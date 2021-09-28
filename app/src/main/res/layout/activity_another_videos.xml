@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="yourapplication.yourrapplication.yourapplication.AnotherVideos"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTENT U SHOULD SEE(="
+        android:gravity="center"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="15"
+        android:shadowColor="@android:color/darker_gray"
+        android:background="@drawable/btn2back"
+        android:layout_margin="16dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/AnVid1"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnAnVID1"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/btnbackground"
+                android:padding="13dp"
+                android:text="WOMEN IN ISLAM:DR/AHMED KHAIRY EMARI"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/AnVid2"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnAnVID2"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/btnbackground"
+                android:padding="13dp"
+                android:text="@string/eng_mostafa_saad"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/AnVid3"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnAnVID3"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/btnbackground"
+                android:padding="13dp"
+                android:text="SURAT EL NESAA"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/AnVid4"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnAnVID4"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/btnbackground"
+                android:padding="13dp"
+                android:text="DR/AHMED ABDOELMEN'M"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/AnVid5"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnAnVID5"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/btnbackground"
+                android:padding="13dp"
+                android:text="SHIEKH/SA'ED KEMALY(1)"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/AnVid6"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnAnVID6"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/btnbackground"
+                android:padding="13dp"
+                android:text="SHIEKH/SA'ED KEMALY(2)"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/AnVid7"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnAnVID7"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/btnbackground"
+                android:padding="13dp"
+                android:text="READING PROBLEMS(1)"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/AnVid8"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnAnVID8"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/btnbackground"
+                android:padding="13dp"
+                android:text="READING PROBLEMS(2)"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/AnVid9"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnAnVID9"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/btnbackground"
+                android:padding="13dp"
+                android:text="U SHOULD WATCH THIS!"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/AnVid10"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnAnVID10"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn2back"
+                android:padding="13dp"
+                android:text="DOWNLOAD KASEM AMIN BOOKS FROM HERE"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+</ScrollView>

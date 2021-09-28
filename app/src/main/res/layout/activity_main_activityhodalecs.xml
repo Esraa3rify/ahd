@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="yourapplication.yourrapplication.yourapplication.MainActivityhodalecs"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HERE ARE DR/HODA'S LECTURES (="
+        android:gravity="center"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="15"
+        android:shadowColor="@android:color/darker_gray"
+        android:background="@drawable/btn2back"
+        android:layout_margin="16dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/mtrhodalec8"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnhodalec8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/btnbackground"
+                android:padding="13dp"
+                android:text="LEC7:IMPORTANT ADVICES TO GIRLS"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/mtrhodalec1"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnhodalec1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/btnbackground"
+                android:padding="13dp"
+                android:text="LEC1:ABOUT WOMEN THOUGHTS"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/mtrhodalec2"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnhodalec2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/btnbackground"
+                android:padding="13dp"
+                android:text="LEC2:FEMINISM"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/mtrhodalec3"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnhodalec3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/btnbackground"
+                android:padding="13dp"
+                android:text="LEC3:CORRECTNESS OF YOUR PATH"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/mtrhodalec4"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnhodalec4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/btnbackground"
+                android:padding="13dp"
+                android:text="LEC4:ABOUT PERSONALITY WEAKNESS"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/mtrhodalec5"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnhodalec5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/btnbackground"
+                android:padding="13dp"
+                android:text="LEC5:HOW TO TAKE DESISIONS!"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/mtrhodalec6"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnhodalec6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/btnbackground"
+                android:padding="13dp"
+                android:text="LEC5:HOW I CAN GIVE UP LAZINESS!(1)"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/mtrhodalec7"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnhodalec7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/btnbackground"
+                android:padding="13dp"
+                android:text="LEC6:HOW I CAN GIVE UP LAZINESS!(2)"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/mtrhodalec9"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnhodalec9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/btnbackground"
+                android:padding="13dp"
+                android:text="LEC6:SUBSCRIBE TO DR/HODA CHANNEL('')"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/mtrhodalec10"
+            style="@style/RippleGrayStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnhodalec10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/btnbackground"
+                android:padding="13dp"
+                android:text="ABOUT DR/HODA AND HER BOOKS"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+</ScrollView>
