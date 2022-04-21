@@ -56,8 +56,10 @@ The aim of the application is not only to root a particular intellectual approac
 
 7-Some screenshots from the app:
 -----------------------------------
-![5caf548c-b7d1-4a2a-823e-1d83a5ebc6c0 (1)](https://user-images.githubusercontent.com/59229510/164367218-5a5ef068-722a-4310-9abf-486b41f01858.jpg)
-![5f4e316c-ede0-4a98-923a-6f1039ddbf3f](https://user-images.githubusercontent.com/59229510/164367233-bf9bee22-35c2-4a55-b2c1-50de010345ea.jpg)
+
+![image](https://user-images.githubusercontent.com/59229510/164367456-cf7e1be5-0795-4813-b78e-3809ebb57a4b.png)
+
+![image](https://user-images.githubusercontent.com/59229510/164367413-c4bdad0a-c535-47ad-9888-4b54c5cbf865.png)
 
 
 ---------------------------------------------------------------------------------------------------------
